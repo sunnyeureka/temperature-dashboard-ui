@@ -1,5 +1,3 @@
-/* App.css */
-
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -19,7 +17,6 @@ body {
   margin-bottom: 24px;
 }
 
-/* Responsive grid for cards */
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -67,7 +64,7 @@ body {
   background-color: #0056b3;
 }
 
-/* Sensor checkboxes layout */
+
 .sensor-checkboxes {
   display: flex;
   flex-wrap: wrap;
@@ -82,7 +79,7 @@ body {
   font-size: 14px;
 }
 
-/* Date pickers section */
+
 .date-pickers {
   display: flex;
   flex-wrap: wrap;
@@ -107,14 +104,14 @@ body {
   font-size: 14px;
 }
 
-/* Chart container */
+
 .chart {
   height: 600px;
   background-color: #1f1f1f;
   border-radius: 8px;
 }
 
-/* Responsive tweaks */
+
 @media (max-width: 768px) {
   .cards {
     flex-direction: column;
